@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+
+analyzer:
+  exclude:
+    - analysis_options.yaml
+    - lib/**/*.g.dart
+    - test/**.g.dart
+    - test/**.mocks.dart
+    
+linter:   
+  rules:
+    prefer_relative_imports: true
